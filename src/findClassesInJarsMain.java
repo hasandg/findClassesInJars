@@ -14,7 +14,7 @@ public class findClassesInJarsMain {
     private static List<File> jarFiles = new ArrayList<File>();
 
     public static void main(String[] args) throws IOException {
-        List<File> files = listJarFilesForFolder(new File("D:MyJarFiles"));
+        List<File> files = listJarFilesForFolder(new File("D:\\MyJarFiles"));
         FileWriter fileWriter = new FileWriter(new File("D:\\out.txt"),true);
         BufferedWriter out = new BufferedWriter(fileWriter);
         for (File file : files) {
