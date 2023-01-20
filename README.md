@@ -1,2 +1,2 @@
-# findClassesInJars
-find all classes in jars of a diractory
+# List classes In jars
+Lists classes In jar files in a folder
